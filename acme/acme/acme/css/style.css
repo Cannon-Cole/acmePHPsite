@@ -1,0 +1,111 @@
+/**************** TEMPLATE CODE *******************/
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-image: url(../images/site/background.jpg);
+}
+.wrapper {
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Skranji', cursive;
+}
+.headerTop {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.logoImg {
+    width: 150px;
+    height: 50px;
+}
+.accountImg {
+    width: 30px;
+    height: 20px;
+}
+.headerTop p {
+    font-weight: bold;
+}
+.headerTop a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    background-color: #de2226;
+    max-width: 100%;
+}
+nav li {
+    padding: 10px;
+}
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.active {
+    background-color: #ffffff;
+}
+.active a {
+    color: #de2226;
+}
+footer {
+    border-top: 3px solid #000000;
+    text-align: center;
+}
+footer p {
+   margin: 0px 0px 2px 0px;
+}
+
+
+/******************** Large Screen **************************/
+@media only screen and (min-width: 64em) {
+    nav li {
+        font-size: 2.5em;
+    }
+    .logoImg {
+    width: 250px;
+    height: 100px;
+    }
+    .accountImg {
+    width: 60px;
+    height: 40px;
+    }
+    .headerTop p {
+    font-weight: bold;
+    font-size: 2em;
+    }
+    .wrapper {
+        max-width: 800px;
+        position: absolute;
+        left: 22%;
+    }
+}
+/******************* END TEMPLATE ******************************/
+
+/***************************************************************/
+main ul:nth-of-type(1) {
+    list-style: none;
+}
+main ul:nth-of-type(1) li {
+    position: relative;
+    left: 100px;
+}
+main ul:nth-of-type(1) img {
+    max-width: 100%;
+}
+main section:nth-of-type(1) {
+    display: flex;
+}
+main section:nth-of-type(1) img {
+    max-width: 100%;
+}
