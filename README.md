@@ -6,7 +6,7 @@ Text based game. An oregon trail knock off built using Java and OOP
 
 
 ![Screenshot](acme-demo-1.png)
-![Screenshot](acme-demo-2.png)
+![Screenshot](acme-demo-2v2.png)
 ![Screenshot](acme-demo-3.png)
 ![Screenshot](acme-demo-4.png)
 ![Screenshot](acme-demo-5.png)
